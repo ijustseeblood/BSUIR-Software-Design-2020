@@ -11,9 +11,18 @@ android {
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("D:\\myConverterKey.jks")
+            storePassword "Megusta1337slark1408"
+            keyAlias = "key0"
+            keyPassword "Megusta1337slark1408"
+        }
     }
 
     buildTypes {
