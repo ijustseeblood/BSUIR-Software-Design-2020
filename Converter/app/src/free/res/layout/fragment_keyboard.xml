@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    tools:context=".KeyboardFragment">
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_column="2"
+        android:text="@string/c"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="@string/_1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:text="@string/_2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:text="@string/_3"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_row="0"
+        android:text="@string/_4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:text="@string/_5"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:text="@string/_6"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:text="@string/_7"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_row="0"
+        android:text="@string/_8"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:text="@string/_9"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnDot"
+        android:layout_rowSpan="2"
+        android:layout_column="2"
+        android:layout_gravity="fill"
+        android:text="@string/dot"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:text="@string/convert"
+        android:textSize="20sp" />
+
+</GridLayout>
