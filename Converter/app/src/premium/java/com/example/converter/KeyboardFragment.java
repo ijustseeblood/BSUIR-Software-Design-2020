@@ -8,10 +8,12 @@ import androidx.lifecycle.ViewModelProviders;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Spinner;
 
 public class KeyboardFragment extends Fragment {
 
     ConvertViewModel convertViewModel;
+    Spinner toSpinner, fromSpinner;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,8 @@ public class KeyboardFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_keyboard, container, false);
+        toSpinner = view.findViewById(R.id.toSpinner);
+        fromSpinner = view.findViewById(R.id.fromSpinner);
         view.findViewById(R.id.btn0).setOnClickListener(view1 -> convertViewModel.setItem("0"));
         view.findViewById(R.id.btn1).setOnClickListener(view1 -> convertViewModel.setItem("1"));
         view.findViewById(R.id.btn2).setOnClickListener(view1 -> convertViewModel.setItem("2"));
@@ -37,7 +41,12 @@ public class KeyboardFragment extends Fragment {
         view.findViewById(R.id.btnC).setOnClickListener(view12 -> convertViewModel.delete());
         view.findViewById(R.id.btnConvert).setOnClickListener(view13 -> convertViewModel.convert());
 
-        view.findViewById(R.id.btnSwap).setOnClickListener(view1 -> convertViewModel.swap());
+        view.findViewById(R.id.btnSwap).setOnClickListener(view14 -> {
+            convertViewModel.swap();
+            Spinner temp = fromSpinner;
+            fromSpinner = toSpinner;
+            toSpinner = temp;
+        });
         return view;
     }
 }
