@@ -2,6 +2,11 @@ plugins {
     id 'com.android.application'
 }
 
+apply from: "../autoVersion.gradle"
+
+
+def version = getArray()
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -10,8 +15,8 @@ android {
         applicationId "com.example.converter"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0.0"
+        versionCode generateVersionCode(version)
+        versionName "${version[0]}.${version[1]}.${version[2]}"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

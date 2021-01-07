@@ -1,0 +1,37 @@
+def getArray() {
+    def diffOutput = new ByteArrayOutputStream()
+
+    exec {
+        commandLine 'git', 'describe',
+                standardOutput = diffOutput
+    }
+
+    def fullVersionName = diffOutput.toString()
+    def currentDotPosition = fullVersionName.indexOf('.')
+    List VersionArray = new ArrayList()
+
+    VersionArray.add(fullVersionName.substring(1, currentDotPosition))
+    fullVersionName = fullVersionName.substring(currentDotPosition + 1, fullVersionName.length())
+    def currentHyphenPosition = fullVersionName.indexOf('-')
+
+    if (currentHyphenPosition != -1) {
+        VersionArray.add(fullVersionName.substring(0, currentHyphenPosition))
+        fullVersionName = fullVersionName.substring(currentHyphenPosition + 1, fullVersionName.length())
+        currentHyphenPosition = fullVersionName.indexOf('-')
+        VersionArray.add(fullVersionName.substring(0, currentHyphenPosition))
+    } else {
+        VersionArray.add(fullVersionName.substring(0, fullVersionName.length() - 1))
+        VersionArray.add(0)
+    }
+    return VersionArray
+}
+
+static def generateVersionCode(ArrayList array) {
+    def result = (array[0].toInteger() * 10000 + array[1].toInteger()) * 100 + array[2].toInteger()
+    return result
+}
+
+ext {
+    getArray = this.&getArray
+    generateVersionCode = this.&generateVersionCode
+}
