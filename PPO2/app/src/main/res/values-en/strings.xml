@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LR2</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Name</string>
+    <string name="prepare">Preparation</string>
+    <string name="work">Work</string>
+    <string name="chill">Rest</string>
+    <string name="cycles">Cycles</string>
+    <string name="sets">Sets</string>
+    <string name="setChill">Rest between sets</string>
+    <string name="trainingTitle">Training</string>
+    <string name="save">Save</string>
+    <string name="color">Color</string>
+    <string name="clearData">Delete files</string>
+    <string name="clearDataSure">Are you sure that you want to delete all user files?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="finish">Finish</string>
+    <string name="finishTraining">Finish train</string>
+    <string name="finishTrainingSure">Are you sure you want stop train?</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="darkTheme">Dark theme</string>
+    <string name="enterFontSize">Enter font size</string>
+    <string name="setFontSize">Installing new font size</string>
+    <string name="fontSize">Font size</string>
+    <string name="chooseLanguage">Choose language</string>
+    <string name="setLanguage">Installing language</string>
+    <string name="language">Language</string>
+    <string name="eraseUserData">Delete all user files</string>
+    <string name="eraseData">Delete files</string>
+    <string name="font_title">Font</string>
+    <string name="theme_title">Theme</string>
+    <string name="lang_title">Language</string>
+
+</resources>
