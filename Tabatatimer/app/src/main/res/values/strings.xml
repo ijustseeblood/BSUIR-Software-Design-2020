@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Tabata timer</string>
+    <string name="workout_default_title">Workout title</string>
+    <string name="title">Title</string>
+    <string name="workout_title_hint">workout title</string>
+    <string name="prepare_title">Prepare</string>
+    <string name="work_title">Work</string>
+    <string name="rest_title">Rest</string>
+    <string name="rest_between_sets_title">Rest between sets</string>
+    <string name="cool_down_title">Cool down</string>
+    <string name="sets_title">Sets</string>
+    <string name="save">Save</string>
+    <string name="palette_title">palette</string>
+    <string name="color_picker_title">Pick color</string>
+    <string name="positive_action">OK</string>
+    <string name="negative_action">Cancel</string>
+    <string name="timer_dialog_title">Finish workout</string>
+    <string name="timer_dialog_message">Do you want to finish this workout ?</string>
+    <string name="workout_is_running">Workout is running</string>
+    <string name="settings">settings</string>
+    <string name="switch_theme_title">Switch theme</string>
+    <string name="font_size_title">Font size</string>
+    <string name="choose_font_size">Choose font size</string>
+    <string name="select_language">Select language</string>
+    <string name="language">Language</string>
+    <string name="clear_all_data_title">Clear all data</string>
+    <string name="default_language">en</string>
+    <string name="clear_title">Clear</string>
+
+
+    <string-array name="font_sizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Big</item>
+    </string-array>
+
+    <string-array name="font_size_values">
+        <item>1.25</item>
+        <item>1.50</item>
+        <item>1.75</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_options_values">
+        <item>"ru"</item>
+        <item>"en"</item>
+    </string-array>
+</resources>

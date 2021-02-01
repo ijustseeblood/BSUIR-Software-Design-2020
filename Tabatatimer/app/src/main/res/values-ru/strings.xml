@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Табата таймер</string>
+    <string name="workout_default_title">Название тренировки</string>
+    <string name="title">Название</string>
+    <string name="workout_title_hint">Название тренировки</string>
+    <string name="prepare_title">Подготовка</string>
+    <string name="work_title">Тренировка</string>
+    <string name="rest_title">Отдых</string>
+    <string name="rest_between_sets_title">Отдых между подходами</string>
+    <string name="cool_down_title">Заминка</string>
+    <string name="sets_title">Подходы</string>
+    <string name="save">Сохранить</string>
+    <string name="palette_title">Палитра</string>
+    <string name="color_picker_title">Выбрать цвет</string>
+    <string name="positive_action">ОК</string>
+    <string name="negative_action">Отменить</string>
+    <string name="timer_dialog_title">Завершить тренировку</string>
+    <string name="timer_dialog_message">Вы хотите завершить данную тренировку ?</string>
+    <string name="workout_is_running">Тренировка запущена</string>
+    <string name="settings">Настройки</string>
+    <string name="switch_theme_title">Переключить тему</string>
+    <string name="font_size_title">Размер шрифта</string>
+    <string name="choose_font_size">Выбрать размер шрифта</string>
+    <string name="select_language">Выбрать язык</string>
+    <string name="language">Язык</string>
+    <string name="clear_all_data_title">Удалить все данные</string>
+    <string name="default_language">ru</string>
+    <string name="clear_title">Удалить</string>
+
+    <string-array name="font_sizes">
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_options_values">
+        <item>"ru"</item>
+        <item>"en"</item>
+    </string-array>
+</resources>
