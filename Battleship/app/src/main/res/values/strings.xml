@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Battleship</string>
+    <string name="authorization">Authorization</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="register_new_user">Register new user</string>
+    <string name="email_required">Email is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="create_new_room">Create new room</string>
+    <string name="user_settings">User settings</string>
+    <string name="app_settings">App settings</string>
+    <string name="sign_out">Sign out</string>
+    <string name="game_statistics">Game results</string>
+    <string name="create_room">Create room</string>
+    <string name="room_id">Room ID</string>
+    <string name="copy_room_id">copy room id</string>
+    <string name="gameRoomId">gameRoomId</string>
+    <string name="room_id_is_copied_title">Room id is copied</string>
+    <string name="enter_room_id">Enter room id</string>
+    <string name="connect_to_the_room">Connect to the room</string>
+    <string name="game_is_finished_title">Game is finished</string>
+    <string name="exit_game_title">Exit game</string>
+    <string name="ok">OK</string>
+    <string name="cancel_game_title">Cancel game</string>
+    <string name="canceling_game_consequnce">If you cancel this game you loose</string>
+    <string name="no">No</string>
+    <string name="enemy_uid_title">Enemy Uid:</string>
+    <string name="game_duration">Game duration:</string>
+    <string name="i_m_the_winner">I\'m the winner:</string>
+    <string name="enter_your_nickname">Enter your nickname</string>
+    <string name="select_image">Select image</string>
+    <string name="upload_image">Upload image</string>
+    <string name="update_nickname">Update nickname</string>
+    <string name="select_image_to_upload">Select image to Upload</string>
+    <string name="you_haven_t_played_a_game_yet">You haven\'t played a game yet ...</string>
+</resources>
